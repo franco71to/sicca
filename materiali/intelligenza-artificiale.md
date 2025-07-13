@@ -5,5 +5,5 @@ title: Intelligenza Artificiale
 
 ## Materiali - Intelligenza Artificiale
 
-- [Machine Learning - Introduzione (PDF)](/assets/ml-intro.pdf)
+- [Come usare l'intelligenza artificiale in modo intelligente - Introduzione (PDF)](/assets/ml-intro.pdf)
 - [Reti Neurali (PDF)](/assets/reti-neurali.pdf)
