@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 2rem;
+        max-width: 800px;
+      }
+      nav a {
+        margin-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/materiali/sistemi-reti">Sistemi e Reti</a>
+        <a href="/materiali/programmazione-csharp">C#</a>
+        <a href="/materiali/database">Database</a>
+        <a href="/materiali/intelligenza-artificiale">AI</a>
+      </nav>
+      <hr />
+    </header>
+
+    {{ content }}
+
+    <footer>
+      <hr />
+      <p><small>© 2025 Docente di Informatica</small></p>
+    </footer>
+  </body>
+</html>
