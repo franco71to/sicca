@@ -5,5 +5,4 @@ title: Sistemi e Reti
 
 ## Materiali - Sistemi e Reti
 
-- [Configurazione IP (PDF)](/assets/ip-configurazione.pdf)
-- [Protocolli di rete (PDF)](/assets/protocolli-rete.pdf)
+- [Dispense per la maturità classe quinta (PDF)]({ site.baseurl }/assets/2025-DISPENSE-SISTEMI-MATURITAv2.2.pdf)
