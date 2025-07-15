@@ -18,3 +18,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/*body {
+        font-family: sans-serif;
+        margin: 2rem;
+        max-width: 800px;
+      }
+*/
+
+nav a {
+        margin-right: 1rem;
+      }
