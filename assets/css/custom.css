@@ -5,13 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
   padding: 1rem;
+}
+*/
+
+body {
+  background-image: url('{{ site.baseurl }}/assets/images/robot.png');
+  background-size: cover; /* oppure contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.95; /* trasparenza globale del body */
 }
 
 /* --- Navbar --- */
