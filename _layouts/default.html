@@ -10,12 +10,24 @@
     <header>
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
-      <nav>
+      <!--nav>
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/materiali/sistemi-reti">Sistemi e Reti</a>
         <a href="{{ site.baseurl }}/materiali/programmazione-csharp">C#</a>
         <a href="{{ site.baseurl }}/materiali/database">Database</a>
         <a href="{{ site.baseurl }}/materiali/intelligenza-artificiale">AI</a>
+    </nav-->
+      <nav class="navbar">
+        <div class="brand">📘 Sicca</div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="nav-links">
+          <li><a href="/sicca/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/materiali/sistemi-reti">Sistemi e Reti">Sistemi e Reti</a></li>
+          <li><a href="/sicca/#programmazione">Programmazione C#</a></li>
+          <li><a href="/sicca/#basedati">Base dati</a></li>
+          <li><a href="/sicca/#ia">Intelligenza Artificiale</a></li>
+        </ul>
       </nav>
       <hr />
     </header>
