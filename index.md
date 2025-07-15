@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Benvenuto nel sito dedicato a vari aspetti legati all'intelligenza artificiale
+# Benvenuto nel sito dedicato ai vari aspetti legati all'intelligenza artificiale
 
 Qui troverai materiali per diverse aree dell'informatica:
 
