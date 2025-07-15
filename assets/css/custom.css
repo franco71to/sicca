@@ -122,9 +122,94 @@ a:hover {
   }
 }
 
-
-
 /* === NAVBAR RESPONSIVE === */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004080;
+  color: white;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+/* Marca del sito */
+.navbar .brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Link */
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+  background-color: #0066cc;
+}
+
+/* === MENU MOBILE === */
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    padding: 0;
+    background-color: #004080;
+    box-sizing: border-box;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 0.8rem 1rem;
+  }
+}
+
+
+/* === NAVBAR RESPONSIVE ===
 .navbar {
   display: flex;
   align-items: center;
@@ -199,3 +284,4 @@ a:hover {
     text-align: center;
   }
 }
+ */
