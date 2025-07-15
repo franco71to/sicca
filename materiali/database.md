@@ -5,4 +5,4 @@ title: Database
 
 ## Materiali - Database
 
-- [Introduzione a SQL (PDF)]({{ site.baseurl }}/assets/sql-introduzione.pdf)
+- [I fondamenti delle basi dati: Database relazionali, SQL, Xamp (PDF)]({{ site.baseurl }}/assets/2026–Basi-di-Dati-SQL-XAMPP.pdf)
